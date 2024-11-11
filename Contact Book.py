@@ -1,7 +1,8 @@
 contact={}  
 print("Welcome to the Contact Book App...") 
 while True: 
-    x = int(input("Enter\n 1-To Add Contact\n 2-To View Contact List\n 3-To Search Contact\n 4-To Update Contact\n 5-To Delete Contact\n"))   
+    x = int(input("Enter\n 1-To Add Contact\n 2-To View Contact List\n 3-To Search Contact\n 4-To Update Contact\n 5-To Delete Contact\n")) 
+print(x)  
     if x==1:
        print("You select 1 to add Contact:")
        name= input("Enter the name:\t")
